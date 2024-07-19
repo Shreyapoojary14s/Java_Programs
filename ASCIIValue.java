@@ -13,3 +13,9 @@ public class ASCIIValue {
         System.out.println("ASCII value of '"+a+"' is :"+asciiValue);
     }
 }
+/*
+ output:
+Enter a character : 
+S
+ASCII value of 'S' is :83
+ */
