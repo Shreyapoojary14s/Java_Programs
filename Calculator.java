@@ -12,7 +12,7 @@ public class Calculator {
         }
        
     
-    public static void calci(int operation, Scanner scanner){
+    public static void calci(int operation, Scanner scanner) {
         System.out.println("Enter the two numbers a & b");
         int a=scanner.nextInt();
         int b=scanner.nextInt();
