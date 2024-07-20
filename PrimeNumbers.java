@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PrimeNumbers {
     public static void main(String[] args) {
-        System.out.println("Enter the nth number:");
+        System.out.println("Enter the nth number :");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         scanner.close();
