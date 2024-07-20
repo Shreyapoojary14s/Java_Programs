@@ -7,7 +7,7 @@ public class SwapNumbers {
         int a=scanner.nextInt();
         int b=scanner.nextInt();
         swapNum(a, b);
-        scanner.close();//resource management
+        scanner.close(); //resource management
     }
     public static void swapNum(int a, int b){
         System.out.println("Before swaping :"+a+" & "+b);
