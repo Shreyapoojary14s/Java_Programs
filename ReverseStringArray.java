@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ReverseStringArray {
     public static void main(String[] args) {
-        System.out.println("Enter the string you want to reverse:");
+        System.out.println("Enter the string you want to reverse :");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         
