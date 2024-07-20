@@ -8,7 +8,7 @@ public class ASCIIValue {
         ascii(a); //call function
         scanner.close();
     }
-    public static void ascii(char a){
+    public static void ascii(char a) {
         int asciiValue = (int) a; //casting char into int
         System.out.println("ASCII value of '"+a+"' is :"+asciiValue);
     }
