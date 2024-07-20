@@ -20,6 +20,6 @@ public static void vowelConsonant(char check){
 }   
 }
 /*
-  Enter a character to check its vowel or consonant :A
+ Enter a character to check its vowel or consonant :A
   'A' is vowel
  */
