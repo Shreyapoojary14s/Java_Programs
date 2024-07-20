@@ -13,7 +13,7 @@ public class LargestNumber {
         largest(a, count);
         scanner.close();
     }
-    public static void largest(int[] a,int count){
+    public static void largest(int[] a,int count) {
         int larg= a[0];
         for(int i=1;i<count;i++){
             if(larg<a[i]){
