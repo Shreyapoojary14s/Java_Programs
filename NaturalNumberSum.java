@@ -7,7 +7,7 @@ public class NaturalNumberSum {
         int count=scanner.nextInt();
         int result=sumOfNum(count);
         System.out.println("sum of "+count+" natural numbers is :"+result);
-
+        scanner.close();
     }
     public static int sumOfNum(int count){
         //<<here time complexity is O(n)>>
