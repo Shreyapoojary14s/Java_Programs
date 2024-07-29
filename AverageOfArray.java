@@ -22,3 +22,12 @@ public class AverageOfArray {
     }
     
 }
+/*
+ *  Enter the length of array :3
+    Enter the integers :
+    5
+    4
+    6
+    Average of array is :5.0
+ */
+
