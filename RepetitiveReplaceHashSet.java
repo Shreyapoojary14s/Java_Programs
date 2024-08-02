@@ -6,7 +6,7 @@ public class RepetitiveReplaceHashSet {
         Scanner scanner=new Scanner(System.in);
         System.out.print("Enter the length of array :");
         int len=scanner.nextInt();
-        checkRepetitive(len, scanner);//func call
+        checkRepetitive(len, scanner);// func call
         scanner.close();
     }
 
