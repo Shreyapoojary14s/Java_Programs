@@ -7,7 +7,8 @@ Output: [0]
 
 Example 2:
 Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
-Output: [8,9,9,9,0,0,0,1]*/
+Output: [8,9,9,9,0,0,0,1]
+*/
 
 import java.util.Scanner;
 class ListNode {
@@ -81,17 +82,17 @@ public class _2_LeetCode {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input for the first linked list
+        // Input for first linked list
         System.out.println("Enter the number of digits for the first number:");
         int n1 = scanner.nextInt();
         ListNode l1 = createList(n1);
 
-        // Input for the second linked list
+        // Input for second linked list
         System.out.println("Enter the number of digits for the second number:");
         int n2 = scanner.nextInt();
         ListNode l2 = createList(n2);
 
-        // Solve using the given function
+        // func call
         Solution sol = new Solution();
         ListNode result = sol.addTwoNumbers(l1, l2);
 
@@ -102,7 +103,8 @@ public class _2_LeetCode {
     }
 }
 /*
- * Enter the number of digits for the first number:
+ OutPut:
+Enter the number of digits for the first number:
 5
 Enter 5 digits in reverse order:
 9 9 9 9 9
